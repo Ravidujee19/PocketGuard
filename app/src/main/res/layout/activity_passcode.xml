@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/eiicolor">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/enter_passcode"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etPasscode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <GridLayout
+        android:id="@+id/gridKeypad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:columnCount="3"
+        android:rowCount="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPasscode">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_1" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_3" />
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_6" />
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_9" />
+
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/c" />
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/_0" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:text="@string/clear" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout> 
