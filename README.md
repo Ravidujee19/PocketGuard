@@ -15,6 +15,33 @@ PocketGuard is a lightweight and offline-first Android application built with Ko
 
 ---
 
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td><img src="dashboard.png" width="250"/><br><center><sub>Dashboard</sub></center></td>
+    <td><img src="addtrns.png" width="250"/><br><center><sub>Add Transaction</sub></center></td>
+    <td><img src="addexpensspiner.png" width="250"/><br><center><sub>Expense Categories</sub></center></td>
+  </tr>
+  <tr>
+    <td><img src="addincomspiner.png" width="250"/><br><center><sub>Income Categories</sub></center></td>
+    <td><img src="catabudnotifi.png" width="250"/><br><center><sub>Budget Exceeded Notification</sub></center></td>
+    <td><img src="addcatabudget.png" width="250"/><br><center><sub>Add Budget Category</sub></center></td>
+  </tr>
+  <tr>
+    <td><img src="currency.png" width="250"/><br><center><sub>Currency Settings</sub></center></td>
+    <td><img src="backup.png" width="250"/><br><center><sub>Backup Created</sub></center></td>
+    <td><img src="changepcode.png" width="250"/><br><center><sub>Change Passcode</sub></center></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <img src="code.png" width="250"/><br><center><sub>Enter Passcode</sub></center>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## ⚙️ Tech Stack
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
