@@ -34,9 +34,9 @@ PocketGuard is a lightweight and offline-first Android application built with Ko
     <td><img src="changepcode.png" width="250"/><br><center><sub>Change Passcode</sub></center></td>
   </tr>
   <tr>
-    <td colspan="3" align="center">
-      <img src="code.png" width="250"/><br><center><sub>Enter Passcode</sub></center>
-    </td>
+    <td><img src="code.png" width="250"/><br><center><sub>Enter Passcode</sub></center></td>
+    <td><img src="totalbgt.png" width="250"/><br><center><sub>Budget Notifications</sub></center></td>
+    <td><img src="transaction.png" width="250"/><br><center><sub>Transaction History</sub></center></td>
   </tr>
 </table>
 
